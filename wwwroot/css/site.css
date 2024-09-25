@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.btn-custom {
+    background-color: #0fa104; /* Normal arka plan rengi */
+    color: white; /* Normal yazı rengi */
+    transition: background-color 0.1s ease; /* Yumuşak geçiş efekti */
+}
+
+.btn-custom:hover {
+    background-color: #108b1e; /* Hover durumunda daha koyu arka plan rengi */
+    color: white;
+}
+
